@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="author" content="FamousThemes" />
+        <meta name="description" content="My Mobile Page Version 3 Template" />
+        <meta name="keywords" content="mobile templates, mobile wordpress themes, mobile themes, my mobile page, premium css templates, premium wordpress themes" />
+        <title>Pigs Can Fly Photography by Ivan Joshua Loh</title>
+        <link rel="shortcut icon" href="http://www.pigscanfly.com/assets/img/favicon.ico">
+    
+        <!-- Main CSS file -->
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+        <!-- Google web font -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        <!-- jQuery file -->
+        <script src="js/jquery.min.js"></script>
+        <!-- FlexSlider -->
+        <script src="js/jquery.flexslider.js"></script>
+        <!-- Main effects files -->
+        <script src="js/effects.js"></script>
+        <!-- jQuery Gallery -->
+		<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.elastislide.js"></script>
+        <script type="text/javascript" src="js/gallery.js"></script>
+        <noscript>
+            <style>
+                .es-carousel ul{
+                    display:block;
+                }
+            </style>
+        </noscript>
+        <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+            <div class="rg-image-wrapper">
+                {{if itemsCount > 1}}
+                    <div class="rg-image-nav">
+                        <a href="#" class="rg-image-nav-prev">Previous Image</a>
+                        <a href="#" class="rg-image-nav-next">Next Image</a>
+                    </div>
+                {{/if}}
+                <div class="rg-image"></div>
+                <div class="rg-loading"></div>
+            </div>
+        </script>
+        <!-- PrettyPhoto -->
+        <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" href="prettyphoto/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+        <!-- jQuery Tabs -->
+        <script src="js/jquery.tabify.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+			var $ = jQuery.noConflict();
+			$(function() {
+			$('#tabsmenu').tabify();
+			$(".toggle_container").hide(); 
+			$(".trigger").click(function(){
+				$(this).toggleClass("active").next().slideToggle("slow");
+				return false;
+			});
+			});
+        </script>
+        <!-- Hide Mobiles Browser Navigation Bar -->
+        <script type="text/javascript">
+            window.addEventListener("load",function() {
+            // Set a timeout...
+            setTimeout(function(){
+            // Hide the address bar!
+            window.scrollTo(0, 1);
+            }, 0);
+            });
+        </script>
+        <style>
+			.video-container {
+				position: relative;
+				padding-bottom: 56.25%;
+				padding:20px
+				padding-top: 30px; height: 0; overflow: hidden;
+			}
+			 
+			.video-container iframe,
+			.video-container object,
+			.video-container embed {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+    </head>
+    <body id="page">
+    	<div id="pagecontainer">
+            <div id="header" class="black_gradient">
+                <a href="index.html" class="back_button black_button">Home</a>
+                <div class="page_title">About</div>
+                <a href="#" id="menu_open" class="black_button">Menu</a>
+                <a href="#" id="menu_close" class="black_button">Close</a>
+                <div class="clear"></div>
+            </div>
+            <div id="pages_nav">
+                <div class="icons_nav">
+                    <div class="paginated"> <!--Remove this DIV if you want to remove the pagination-->
+                        <ul class="slides">
+                            <li>
+                                <a href="about.html" class="icon">
+                                	<img src="images/icons/icon_about.png" alt="" title="" border="0" />
+                                   	<span>About</span>
+                                </a>
+                                <a href="project.html" class="icon">
+                                	<img src="images/icons/icon_portfolio.png" alt="" title="" border="0" />
+                                    <span>Project</span>
+                                </a>
+                                <a href="photos.html" class="icon">
+                                	<img src="images/icons/icon_photos.png" alt="" title="" border="0" />
+                                    <span>Photos</span>
+                                </a>
+                                <a href="videos.html" class="icon">
+                                	<img src="images/icons/icon_video.png" alt="" title="" border="0" />
+                                    <span style="font-size:90%;">Behind the Scene</span>
+                                </a>
+                            </li>
+                            <li>
+                                 <a href="contact.html" class="icon">
+                                	<img src="images/icons/icon_contact.png" alt="" title="" border="0" />
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>  <!--Remove this DIV if you want to remove the pagination-->
+            	</div>
+          	</div>
+            
+            <!-- Content-->
+			<div class="content">
+	        	<h1>BIO</h1>
+    	      	<span class="subtitle_descr">
+                An Award winning photographer from Singapore. Ivan Loh is known for his quirky and different approach through his lens. He has received numerous accolades from the International Photography Award, New York and PX3 Prix De La Photographie in Paris. Most Recently a 3rd Place at the 2013 Photography Master Cup.
+<br><br>
+Ivan started shooting since his teenage years with his father's Nikon SLR and he hasn't stopped since. Ivan has lensed campaigns for clients such as Singapore Airlines, MTV Asia, Nike, Nanyang Technological University(NTU) Tuas Power, Allianz Insurance, Manulife Insurance, HSBC Insurance, DHL. TNT, UOB, CAAS, Hilton Group, Intercontinental Hotel Group, Raffles Hotel, Diegeo, Embraer, Carlson, TATA Communication, HDB, Clark Quay, HOT FM 91.3, Kiss 92FM, JIA 88.3, Power 98, and CHIMJES.
+<br><br>
+His editorial works have appeared in magazines such as Conde Nast,Home+Living,Her World, Cleo, Seventeen, FHM, Parents World and Home & Decor. His works have also glossed the pages of international magazines such as Asian Photography and Digital Photography(UK).</span>               
+            	<br>
+                <ul class="social">
+					<li><a href="https://www.facebook.com/pigscanflyphotography" target="new">
+                    		<img src="images/social/facebook.png" alt="" title="Facebook" border="0" class="rounded-half">
+                        </a>
+                    </li>
+                    <li><a href="http://www.oneeyeland.com/ivanjoshualoh/member_home.php?pgrid=44720" target="new">
+                    	    <img src="images/social/oneeyeland.png" alt="" title="One Eyeland" border="0" class="rounded-half">
+                        </a>
+            		</li>
+            	</ul>
+			</div>       
+        </div> 
+    </body>
+</html>
